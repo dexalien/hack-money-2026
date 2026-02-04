@@ -4,6 +4,7 @@ import Image from "next/image";
 
 type View = "dashboard" | "campaigns" | "create" | "api-setup" | "inbox";
 
+
 interface SidebarProps {
   currentView: View;
   onViewChange: (view: View) => void;

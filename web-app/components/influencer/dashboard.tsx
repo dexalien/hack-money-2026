@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
 import { InfluencerSidebar } from "./sidebar";
 import { CampaignBrowser } from "./campaign-browser";

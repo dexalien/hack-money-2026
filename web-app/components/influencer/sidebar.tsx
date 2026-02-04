@@ -4,6 +4,7 @@ import Image from "next/image";
 
 type View = "dashboard" | "browse" | "my-campaigns" | "earnings" | "statistics";
 
+
 interface InfluencerSidebarProps {
   currentView: View;
   onViewChange: (view: View) => void;
